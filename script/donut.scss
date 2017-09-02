@@ -1,0 +1,158 @@
+$donut-radius: 10vh;
+$donut: #fcd780;
+$chocolate: #965e25;
+$sprinkle: #ffa3c0;
+html,
+body {
+    background-color: #7fd8e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    font-family: "Helvetica", sans-serif;
+}
+
+.donut {
+    position: relative;
+    top: -$donut-radius * 3;
+    left: -$donut-radius * 3;
+    text-align: center;
+}
+
+.donut-base {
+    position: absolute;
+    height: $donut-radius * 2;
+    width: $donut-radius * 2;
+    border-radius: 100%;
+    border: solid $donut-radius * 2 $donut;
+    box-shadow: $donut-radius /4 $donut-radius / 4 0 rgba(0, 0, 0, .25);
+}
+
+.chocolate {
+    position: absolute;
+    top: $donut-radius / 2;
+    left: $donut-radius / 2;
+    height: $donut-radius * 3;
+    width: $donut-radius * 3;
+    border-radius: 100%;
+    border: solid $donut-radius $chocolate;
+}
+
+.chocolate-curve {
+    position: absolute;
+    height: $donut-radius * 2;
+    width: $donut-radius;
+    background-color: $chocolate;
+    border-radius: 100%;
+    top: $donut-radius * 2;
+    left: $donut-radius / 5;
+    box-shadow: $donut-radius * 4.6 0px 0 $chocolate;
+}
+
+.flipped {
+    z-index: 100;
+    position: absolute;
+    top: -$donut-radius * .3;
+    left: $donut-radius * 2.4;
+    transform: rotate(90deg);
+}
+
+.rotate-45 {
+    transform: rotate(45deg);
+    top: $donut-radius / 2.6;
+    left: $donut-radius / 1.15;
+}
+
+.rotate-n45 {
+    top: $donut-radius * 3.6;
+    left: $donut-radius / 1.15;
+    transform: rotate(-45deg);
+}
+
+.sprinkle {
+    position: absolute;
+    border-radius: $donut-radius;
+    z-index: 100;
+    background-color: $sprinkle;
+    height: $donut-radius / 1.15;
+    width: $donut-radius / 4;
+}
+
+.one {
+    transform: rotate(45deg);
+    top: $donut-radius;
+    left: $donut-radius * 1.25;
+}
+
+.two {
+    transform: rotate(10deg);
+    top: $donut-radius * 3;
+    left: $donut-radius * .95;
+}
+
+.three {
+    transform: rotate(60deg);
+    top: $donut-radius * 2;
+    left: $donut-radius * .75;
+}
+
+.four {
+    transform: rotate(60deg);
+    top: $donut-radius * 4.25;
+    left: $donut-radius * 1.25;
+}
+
+.five {
+    transform: rotate(-20deg);
+    top: $donut-radius * 4.75;
+    left: $donut-radius * 2.25;
+}
+
+.six {
+    transform: rotate(65deg);
+    top: $donut-radius * 4.75;
+    left: $donut-radius * 3.25;
+}
+
+.seven {
+    transform: rotate(-45deg);
+    top: $donut-radius * 4.25;
+    left: $donut-radius * 4.35;
+}
+
+.eight {
+    transform: rotate(20deg);
+    top: $donut-radius * 3.25;
+    left: $donut-radius * 5;
+}
+
+.nine {
+    transform: rotate(-120deg);
+    top: $donut-radius * 2.25;
+    left: $donut-radius * 4.9;
+}
+
+.ten {
+    transform: rotate( -10deg);
+    top: $donut-radius * 1.25;
+    left: $donut-radius * 4.5;
+}
+
+.eleven {
+    transform: rotate( 50deg);
+    top: $donut-radius * .75;
+    left: $donut-radius * 3.5;
+}
+
+.twelve {
+    transform: rotate( -20deg);
+    top: $donut-radius * .5;
+    left: $donut-radius * 2.5;
+}
