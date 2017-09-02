@@ -1,0 +1,157 @@
+html,
+body {
+  background-color: #7fd8e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  font-family: "Helvetica", sans-serif;
+}
+
+.donut {
+  position: relative;
+  top: -30vh;
+  left: -30vh;
+  text-align: center;
+}
+
+.donut-base {
+  position: absolute;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 100%;
+  border: solid 20vh #fcd780;
+  box-shadow: 2.5vh 2.5vh 0 rgba(0, 0, 0, 0.25);
+}
+
+.chocolate {
+  position: absolute;
+  top: 5vh;
+  left: 5vh;
+  height: 30vh;
+  width: 30vh;
+  border-radius: 100%;
+  border: solid 10vh #965e25;
+}
+
+.chocolate-curve {
+  position: absolute;
+  height: 20vh;
+  width: 10vh;
+  background-color: #965e25;
+  border-radius: 100%;
+  top: 20vh;
+  left: 2vh;
+  box-shadow: 46vh 0px 0 #965e25;
+}
+
+.flipped {
+  z-index: 100;
+  position: absolute;
+  top: -3vh;
+  left: 24vh;
+  transform: rotate(90deg);
+}
+
+.rotate-45 {
+  transform: rotate(45deg);
+  top: 3.84615vh;
+  left: 8.69565vh;
+}
+
+.rotate-n45 {
+  top: 36vh;
+  left: 8.69565vh;
+  transform: rotate(-45deg);
+}
+
+.sprinkle {
+  position: absolute;
+  border-radius: 10vh;
+  z-index: 100;
+  background-color: #ffa3c0;
+  height: 8.69565vh;
+  width: 2.5vh;
+}
+
+.one {
+  transform: rotate(45deg);
+  top: 10vh;
+  left: 12.5vh;
+}
+
+.two {
+  transform: rotate(10deg);
+  top: 30vh;
+  left: 9.5vh;
+}
+
+.three {
+  transform: rotate(60deg);
+  top: 20vh;
+  left: 7.5vh;
+}
+
+.four {
+  transform: rotate(60deg);
+  top: 42.5vh;
+  left: 12.5vh;
+}
+
+.five {
+  transform: rotate(-20deg);
+  top: 47.5vh;
+  left: 22.5vh;
+}
+
+.six {
+  transform: rotate(65deg);
+  top: 47.5vh;
+  left: 32.5vh;
+}
+
+.seven {
+  transform: rotate(-45deg);
+  top: 42.5vh;
+  left: 43.5vh;
+}
+
+.eight {
+  transform: rotate(20deg);
+  top: 32.5vh;
+  left: 50vh;
+}
+
+.nine {
+  transform: rotate(-120deg);
+  top: 22.5vh;
+  left: 49vh;
+}
+
+.ten {
+  transform: rotate(-10deg);
+  top: 12.5vh;
+  left: 45vh;
+}
+
+.eleven {
+  transform: rotate(50deg);
+  top: 7.5vh;
+  left: 35vh;
+}
+
+.twelve {
+  transform: rotate(-20deg);
+  top: 5vh;
+  left: 25vh;
+}
+ 
+
+ /*# sourceMappingURL= donut.css.map */
